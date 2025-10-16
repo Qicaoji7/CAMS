@@ -1,25 +1,24 @@
 # An AI-Driven Framework for Supportive Multi-sensory Art Education to Advance Equity for ADHD Learners
 
+This repository contains information related to the paper titled "An AI-Driven Framework for Supportive Multi-sensory Art Education to Advance Equity for ADHD Learners."
 
-This repository contains the official source code and processed data for the paper: "An AI-Driven Framework for Supportive Multi-sensory Art Education to Advance Equity for ADHD Learners".
+## 📝 About the Project
+
+[cite_start]Students with Attention Deficit Hyperactivity Disorder (ADHD) often face significant challenges in traditional art education, which typically relies on sustained visual attention and static instructional methods[cite: 16, 17, 60]. [cite_start]This project introduces **CAMS (a Cognitively Accessible Multi-sensory System)**, an innovative AI-driven framework designed to address these challenges and promote educational equity[cite: 4].
+
+[cite_start]CAMS leverages a sophisticated pipeline of generative AI and multi-modal analysis to transform static visual artworks into personalized, attention-supportive, multi-sensory learning experiences[cite: 4, 24, 25]. [cite_start]By generating complementary auditory content (music and soundscapes) specifically engineered for the cognitive patterns of ADHD learners, the system creates multiple pathways for engagement and fosters a more inclusive educational environment[cite: 25, 26].
 
 
+## 💾 Public Datasets Used
 
-## Datasets
+This study utilized several publicly available datasets for model training and evaluation. While our full integrated dataset is not public due to privacy restrictions, the source datasets can be accessed via the links below:
 
-This study utilizes several publicly available datasets. Due to their size, they are not included in this repository. You will need to download them from their original sources:
+* [cite_start]**WikiArt**: Used for visual art content, providing a diverse collection of paintings across various styles and periods[cite: 306].
+    * [cite_start]URL: [https://www.wikiart.org/](https://www.wikiart.org/) [cite: 306]
 
-* **WikiArt**: A large-scale dataset of paintings. We used this dataset for visual analysis.
-    * **Homepage**: [https://www.wikiart.org/](https://www.wikiart.org/)
-    * **How to Access**: Please refer to the instructions on the official website for downloading the image data.
+* [cite_start]**EMOPIA**: An emotionally annotated music dataset used for its therapeutic characteristics and potential benefits for attention regulation[cite: 151, 306].
+    * [cite_start]URL: [https://annahung31.github.io/EMOPIA/](https://annahung31.github.io/EMOPIA/) [cite: 306]
 
-* **EMOPIA**: A shared-resource pop piano MIDI dataset for emotion recognition in music. We used the emotion labels and music features from this dataset.
-    * **Homepage**: [https://annahung31.github.io/EMOPIA/](https://annahung31.github.io/EMOPIA/)
-    * **Access**: The dataset can be downloaded directly from the project homepage.
-
-* **Yahoo! Music Ratings**: This dataset contains user ratings for various musical artists and tracks, which we used for preference analysis.
-    * **Homepage**: [https://webscope.sandbox.yahoo.com/catalog.php?datatype=r](https://webscope.sandbox.yahoo.com/catalog.php?datatype=r)
-    * **Access**: Available for download upon request from the Yahoo! Webscope program.
-
-The processed data and data subsets generated and used directly in our analysis are available in the `/data` directory of this repository.
+* **Yahoo! [cite_start]Music Dataset**: Used for user preference modeling, containing a large collection of music ratings[cite: 156, 306].
+    * [cite_start]URL: [https://webscope.sandbox.yahoo.com/catalog.php?datatype=r](https://webscope.sandbox.yahoo.com/catalog.php?datatype=r) [cite: 306]
 
